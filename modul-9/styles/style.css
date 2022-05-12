@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+}
+.lineOne{
+    font-size: 20px;
+}
+.lineTwo{
+    font-size: 40px;
+    font-family: fantasy;
+}
+.lineThree{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*
+nav > ul >li{
+    display: inline;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace; 
+}
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+}
+.navigasi{
+    flex-grow: 1;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    display: flex;
+    border-top: 1.5px solid #111111;
+    border-bottom: 1px solid #111111;
+    padding: 10px 20px;
+}
+.text{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home{
+    color: red;
+}
+#gambar1{
+    width: 100%;
+}
