@@ -22,16 +22,6 @@ body{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/*
-nav > ul >li{
-    display: inline;
-    padding: 20px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 1em;
-    font-family: 'Courier New', Courier, monospace; 
-}
-*/
 a{
     text-decoration: none;
     color: black;
