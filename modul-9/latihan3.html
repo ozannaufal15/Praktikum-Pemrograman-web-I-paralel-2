@@ -1,40 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Overflow</title>
+    <title>Text</title>
     <style>
         body{
-            font-family: arial, verdana, sans-serif;
-            color: #111111;
-            line-height: 1.2em;
-            width: 200px;
+            padding: 20px;
+        }
+        h1,h2,h3,a{
+            font-weight: normal;
+            color: #0088dd;
+            margin: 0px;
+        }
+        h1{
+            font-family: Georgia, Times, serif;
+            font-size: 250%;
+            text-shadow: 2px 2px 3px #666666;
+            padding-bottom: 10px;
         }
         h2{
-            color: #0088dd;
-            border-bottom: 1px solid #0088dd;
+            font-family: "Gill Sans",Arial, sans-serif;
+            font-size: 90%;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+        }
+        h3{
+            font-size: 150%;
         }
         p{
-            min-height: 30px;
-            max-height: 85px;
+            font-family: Arial, Verdana, sans-serif;
+            line-height: 1.4em;
+            color: #665544;
         }
-        p.one{
-            overflow: hidden;
+        p.intro::first-line{
+            font-weight: bold;
         }
-        p.two{
-            overflow: scroll;
+        .credits{
+            font-style: italic;
+            text-align: right;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h2>Server Pirate Bay Pindah ke 'Awan'</h2>
-    <P class="one">Siapa tak kenal Pirate Bay? Salah satu situs penyedia konten yg
-        selalu dikunjungi para pemburu torent dan konten illegal itu, harus mencari akal
-        agar bisa online. Salah satunya dengan memindahkan server ke 'awan'.
-    </P>
-    <h2>Lebuh Aman</h2>
-    <p class="two">Selain lebih aman dari penggrebekan pihak berwajib mengguankan
-        cloud computing dianggap lebih mudah bagi Pirate Bay saat ingin meng-upgrade
-        kapasitas server.
+    <h1>Briards</h1>
+    <h2>A Heart wrapped in fur</h2>
+    <p class="intro">The <a class="breed" href="http://en.wikipedia.org/wikiBriard">briard</a>
+    , or berger de brie, is a large breed of dog traditionally used as a
+    herder and guardian of sheep.</p>
+    <h3>Breed History</h3>
+    <p>The briard, which is believed to have originated in France, has been bred for
+        centuries to herd and to protect sheep. The breed was used by the French Army as 
+        sentries, messengers and to search for wounded soldiers because of its fine sense
+        of hearing. Briards were used in the First World War almost to the point of
+        extinction. Currently the population of briards is slowly recovering.
+        Charlemagne, Napoleon, Thomas Jefferson and Lafayette all owned briards.
     </p>
+    <p class="credits">by Ivy Duckett</p>    
 </body>
 </html>

@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Belajar Pseudo-class dan Pseudo-element CSS</title>
-    <style>
-        a:hover {
-            color: salmon;
-        }
-        p::first-letter {
-            font-size: 30px;
-            color: red;
-            float: left;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML5</title>
 </head>
 <body>
-    <h2>Belajar Psseudo-class dan Pseudo-element CSS</h2>
-
-    <h3>contoh Psseudo-class: :hover</h3>
-    <a href="https://ft.ulmm.ac.id/id/">Fakultas Teknik ULM</a>
-
-    <h3>contoh Pseudo-element: ::first-letter</h3>
-    <p class="left">
-        Fakultas Teknik berdiri berdasarkan Surat Keputusan Menteri Pendidikan dan Kebudayaan Republik Indonesia
-        dengan Nomor 296/65 tanggal 27 Desember 1965, dan disempurnakan berdasarkan Surat Keputusan
-        Nomor 75/Bikuk/1966 tanggal 25 Juli 1966. Jurusan yang pertama kali dibentuk di Fakultas ini adalah Jurusan Teknik Sipil.
-    </p>
+    <header>
+        <h1>Judul Halaman Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>Judul Artikel</h1>
+            <p>Deskripsi Artikel</p>
+        </article>
+        <article>
+            <h1>Judul Artikel 2</h1>
+            <p>Deskripsi Artikel</p>
+        </article>
+        <aside>
+            <h2>Artikel Terkait</h2>
+            <ul>
+                <li><a href="">Artikel 1</a></li>
+                <li><a href="">Artikel 2</a></li>
+                <li><a href="">Artikel 3</a></li>
+            </ul>
+        </aside>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2022 by <a href="">Teknologi Informasi</a></p>
+    </footer>
 </body>
 </html>

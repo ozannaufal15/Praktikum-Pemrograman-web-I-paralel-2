@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style-latihan2.css" class="css">
+</head>
+<body>
+    <h1>Poetry Workshops</h1>
+    <p>We will be conducting a number of poetry workshops
+        and symposiums throughout the year.
+    </p>
+    <p>Please note that the following events are free to members:</p>
+    <ul>
+        <li>A Poetic Perspective</li>
+        <li>Walt Whitman at War</li>
+        <li>Found Poems and Outsider Poetry</li>
+    </ul>
+    <table>
+        <tr class="head">
+            <th></th>
+            <th>New York</th>
+            <th>Chicago</th>
+            <th>San Fransisco</th>
+        </tr>
+        <tr>
+            <th>A Poetic Perspective</th>
+            <td>sat, 4 Feb 2012<br />11am - 2pm</td>
+            <td>sat, 3 Mar 2012<br />11am - 2pm</td>
+            <td>sat, 17 Mar 2012<br />11am - 2pm</td>
+        </tr>
+        <tr class="even">
+            <th>Walt Whitman at War</th>
+            <td>sat, 7 Apr 2012<br />11am - 1pm</td>
+            <td>sat, 5 May 2012<br />11am - 1pm</td>
+            <td>sat, 19 May 2012<br />11am - 1pm</td>
+        </tr>
+        <tr>
+            <th>Found Poems &amp; Outsider Poetry</th>
+            <td>sat, 9 Jun 2012<br />11am - 2pm</td>
+            <td>sat, 7 Jul 2012<br />11am - 2pm</td>
+            <td>sat, 21 Jul 2012<br />11am - 2pm</td>
+        </tr>
+        <tr class="even">
+            <th>Natural Death: An Exploration</th>
+            <td>sat, 4 Aug 2012<br />11am - 4pm</td>
+            <td>sat, 8 Sep 2012<br />11am - 4pm</td>
+            <td>sat, 15 Sep 2012<br />11am - 4pm</td>
+        </tr>
+    </table>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Register your interest</legend>
+            <p><label class="title" for="name">Your name:</label></p>
+            <input type="text" name="name" id="name"><br />
+            <p><label class="title" for="email">Your email:</label></p>
+            <input type="text" name="email" id="email"><br />
+            <p><label class="title" for="location">Your closest center:</label>
+            <select name="location" id="location">
+                <option value="ny">New York</option>
+                <option value="il">Chicago</option>
+                <option value="ca">San Fransisco</option>
+            </select>
+            </p>
+            <span class="title">Are you a member?</span>
+            <label><input type="radio" name="member" value="yes"> Yes</label>
+            <label><input type="radio" name="member" value="no"> No</label>
+        </fieldset>
+        <div class="submit"><input type="submit" value="register" /></div>
+    </form>
+</body>
+</html>
