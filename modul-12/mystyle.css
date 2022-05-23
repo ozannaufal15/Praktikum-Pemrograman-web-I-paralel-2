@@ -19,6 +19,12 @@
     height: 330px;
     border: 1px solid green;
 }
+#content{
+    float: left;
+    width: 544px;
+    height: 330px;
+    border: 1px solid green;
+}
 #footer{
     clear: both;
     height: 50px;
